@@ -1,13 +1,13 @@
-package edu.mum.cs.cs425.demowebapps.elibrary;
+package edu.mum.cs.cs425.demos.elibrarydemocrudweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ElibraryApplication {
+public class ElibraryDemocrudWebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ElibraryApplication.class, args);
+        SpringApplication.run(ElibraryDemocrudWebApplication.class, args);
     }
 
 }
